@@ -189,7 +189,7 @@ def main():
         plant_mask_path = os.path.join(OUTPUT_DIR, f"{base}_plantmask.npy")
         np.save(plant_mask_path, plant_mask)
 
-        # Save color viz + overlay (optional, as you had)
+        # Save color viz + overlay 
         rgb_img = get_rgb(cube)
         mask_color = colorize(pred_mask)
         mask_color_path = os.path.join(OUTPUT_DIR, f"{base}_mask_color.png")
@@ -211,3 +211,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
