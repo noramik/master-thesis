@@ -1,0 +1,71 @@
+# Exclude data files
+*.jpg
+*.jpeg
+*.npy
+*.png
+*.hdr
+*.hyspex
+*.raw
+*.txt
+
+# Force include important files (override exclusions if needed)
+!*.py
+!*.ipynb
+!*.csv
+!*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+*.venv
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.jupyter/
+
+# Analysis and testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Other
+.env
+.env.local
+*.log
+*.tmp
+*~
